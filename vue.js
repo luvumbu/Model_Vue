@@ -8,7 +8,7 @@ var head = new Vue({
 var header = new Vue({
   el: '#header',
   data: {
-  
+    
   }
 })
 
