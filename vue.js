@@ -1,4 +1,4 @@
-var header = new Vue({
+var head = new Vue({
   el: '#head',
   data: {    
     title:"Bokonzi"
@@ -12,14 +12,14 @@ var header = new Vue({
   }
 })
 
-var app2 = new Vue({
+var section = new Vue({
   el: '#section',
   data: {
     
   }
 })
 
-var app2 = new Vue({
+var footer = new Vue({
   el: '#footer',
   data: {
     
