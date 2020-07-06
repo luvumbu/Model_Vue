@@ -13,15 +13,7 @@
 <link rel="shortcut icon" type="image/png" href="src/img/favicon.png">
 <!-- https://fontawesome.com/ -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122680694-1"></script>
 <!--
  https://fontawesome.com/icons 
  https://www.dafont.com/fr/
 -->
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-122680694-1');
-</script>
