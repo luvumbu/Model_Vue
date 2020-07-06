@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="fontawesome/css/all.css">
+<link rel="stylesheet" href="src/fontawesome/css/all.css">
 <link rel="stylesheet" href="vue/header/header.css">
 <link rel="stylesheet" href="vue/section/section.css">
 <link rel="stylesheet" href="vue/footer/footer.css">
@@ -10,3 +10,4 @@
 <script src="vue.js"></script>
 <link rel="stylesheet" href="body_font.css">
 <link rel="stylesheet" href="font.css">
+<link rel="shortcut icon" type="image/png" href="src/img/favicon.png">
