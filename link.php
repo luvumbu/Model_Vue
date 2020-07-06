@@ -8,5 +8,5 @@
 <script src="vue/footer/footer.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="vue.js"></script>
-<link rel="stylesheet" href="app.css">
+<link rel="stylesheet" href="body_font.css">
 <link rel="stylesheet" href="font.css">

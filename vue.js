@@ -1,4 +1,11 @@
 var header = new Vue({
+  el: '#head',
+  data: {    
+    title:"Bokonzi"
+  }
+})
+
+var header = new Vue({
   el: '#header',
   data: {
   
