@@ -1,3 +1,3 @@
 <?php 
-	include("section.html");
+	 include("section.html");
 ?>
