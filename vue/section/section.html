@@ -1,0 +1,80 @@
+<div id="sectioncontaint"></div>
+
+<div id="hebdomadaire">	
+	<div :class="w50p">
+		<h1>hebdomadaire</h1>
+	<form>
+		<div class="form-group">
+			<label for="">Nom :</label><i  id="alert_nom" class="fas fa-exclamation-triangle"></i>
+			<input type="text" class="form-control" id="" placeholder="Votre nom" style="padding: 25px;" @keyup="nom($event)">
+			<label for="">Prenom : </label><i  id="alert_prenom" class="fas fa-exclamation-triangle"></i>
+			<input type="text" class="form-control" id="prenom"  placeholder="Votre prenom" style="padding: 25px;" @keyup="prenom($event)">
+			
+			<br/>
+			<label>Date debut d'intervention</label>
+			<input type="date" style="padding: 10px;border:1px solid rgba(0,0,0,0.1)" @change="time_date($event)" >
+			<label>Date fin d'intervention</label>
+			<input type="date" style="padding: 10px;border:1px solid rgba(0,0,0,0.1)" @change="time_date($event)" ><i id="time_date" class="fas fa-exclamation-triangle"></i>
+			<br/>
+			<label for="exampleInputEmail1">n° intervention</label><i id="intervention" class="fas fa-exclamation-triangle"></i>
+			<input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="intervention" placeholder="n° intervention" style="padding: 25px;"  @keyup="intervention($event)">		
+			<label for="">Nom entreprise </label><i  id="entreprise" class="fas fa-exclamation-triangle"></i>
+			<input type="text" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp" placeholder="nom entreprise" style="padding: 25px;" @keyup="entreprise($event)">
+		</div>
+	</form>
+	<form>
+				<label for="partie1">Nombre d'heure par jour</label><i id="exclamation_begin" class="fas fa-exclamation-triangle"></i>
+				<select id="partie1" class="form-control" @change="time_begin($event)" class="form-control" v-model="key_time_begin">
+					<option selected>Choose...</option>
+					<option value="1">1h00</option>
+					<option value="2">2h00</option>
+					<option value="3">3h00</option>
+					<option value="4">4h00</option>
+					<option value="5">5h00</option>
+					<option value="6">6h00</option>
+					<option value="7">7h00</option>
+					<option value="8">8h00</option>
+					<option value="9">9h00</option>
+					<option value="10">10h00</option>
+				</select>
+				<label for="partie1">Temps de repos durent la mission (Temps pour manger et pause) </label><i id="exclamation_rest" class="fas fa-exclamation-triangle"></i>
+				<select id="partie1" class="form-control" @change="time_rest($event)" class="form-control" v-model="key_time_rest">
+					<option selected>Choose</option>
+					<option value="0">0 pas de repos</option>
+					<option value="0.25">15min</option>
+					<option value="0.50">30min</option>
+					<option value="1">1h</option>
+					<option value="1.5">1h30</option>
+					<option value="2">2h00</option>
+				</select>
+	</form>
+	<table :class="w50p">
+		<tr>
+				<th>Commencement de la mission</th>
+				<th>Fin de la mission</th>
+				<th>Temps de repos</th>
+				<th>Total heure travaillé</th>
+		</tr>
+		<tr>
+				<td>				
+					<a v-if="key_time_begin">{{key_time_begin}}H</a>
+					<a v-else>😢</a>
+				</td>
+				<td>
+					<a v-if="key_time_end">{{key_time_end}}H</a>
+					<a v-else>😢</a>
+				</td>
+				<td>
+					<a v-if="info_time_rest">{{this.key_time_rest}}H</a>
+					<a v-else>😢</a>
+				</td>		
+				<td>
+					<a v-if="result">{{this.result}}H</a>
+					<a v-else>😢</a>
+				</td>			
+		</tr>
+	</table>
+	<button id="submit_btn" type="submit" class="display_none" style="margin-top:100px;margin-bottom:100px">Valider toutes les informations</button>
+	</div>
+</div>
+
