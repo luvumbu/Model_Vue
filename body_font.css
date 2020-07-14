@@ -1,5 +1,9 @@
 body {
-	font-family: "Roboto-Black";
+	font-family: Roboto-Thin;
+}
+@media screen and (max-width: 1280px)
+{
+    /* Rédigez vos propriétés CSS ici */
 }
 /* width */
 ::-webkit-scrollbar {
