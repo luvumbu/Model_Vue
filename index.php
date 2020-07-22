@@ -6,6 +6,7 @@
 	<title>{{title}}</title>
 </head>
 <body>
+
 <?php 
 	include("app.php");
 	include("link.php");

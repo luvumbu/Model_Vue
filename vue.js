@@ -26,3 +26,5 @@ var footer = new Vue({
   }
 })
  
+
+
