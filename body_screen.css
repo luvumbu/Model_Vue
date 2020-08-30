@@ -1,32 +1,27 @@
 @media screen and (min-width: 0px) and (max-width: 500px) {
 	body {
 		/* Screen smartphone*/
-		width: 500px;
-		margin: auto;
+
 	}
 }
 
 @media screen and (min-width: 500px) and (max-width: 1000px) {
 	body {
 		/* Screen tablettes*/
-		width: 1000px;
-		margin: auto;
+
 	}
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1500px) {
 	body {
 		/* Screen pc portable petit ecran*/
-		width: 1500px;
-		margin: auto;
+
 	}
 }
 
 @media screen and (min-width: 1500px) and (max-width: 2000px) {
 	body {
 		/* Screen pc portables ou pc ecran standar*/
-		width: 2000px;
-		margin: auto;
 
 	}
 }
@@ -34,15 +29,13 @@
 @media screen and (min-width: 2000px) and (max-width: 2500px) {
 	body {
 		/* Screen télevision grand ecran*/
-		width: 2000px;
-		margin: auto;
+
 	}
 }
 
 @media screen and (min-width: 2500px) and (max-width: 3000px) {
 	body {
 		/* Screen télevision trés grand ecran*/
-		width: 3000px;
-		margin: auto;
+
 	}
 }

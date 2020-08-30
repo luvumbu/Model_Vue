@@ -1,8 +1,10 @@
 body {
-	font-family: Roboto-Thin;
+	font-family: "Roboto-Bold";
 }	
-
-
+b
+{
+	font-family: "Comfortaa-Light"; 
+}
 /* width */
 ::-webkit-scrollbar {
 	width: 10px;
