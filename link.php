@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="vue/header/header.css">
 <link rel="stylesheet" href="vue/section/section.css">
 <link rel="stylesheet" href="vue/footer/footer.css">
+<link rel="stylesheet" href="media_screen.css>
 
 <script src="vue/header/header.js"></script>
 <script src="vue/section/section.js"></script>
@@ -17,6 +18,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 <script src="vue.js"></script>
 <link rel="stylesheet" href="body_font.css">
+<link rel="stylesheet" href="body_screen.css">
 <link rel="stylesheet" href="font.css">
 <link rel="shortcut icon" type="image/png" href="src/img/favicon.png">
 

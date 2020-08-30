@@ -1,0 +1,35 @@
+@media screen and (min-width: 0px) and (max-width: 500px) {
+	body {
+		/* Screen smartphone*/
+	}
+}
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+	body {
+		/* Screen tablettes*/
+	}
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
+	body {
+		/* Screen pc portable petit ecran*/
+	}
+}
+
+@media screen and (min-width: 1500px) and (max-width: 2000px) {
+	body {
+		/* Screen pc portables ou pc ecran standar*/
+	}
+}
+
+@media screen and (min-width: 2000px) and (max-width: 2500px) {
+	body {
+		/* Screen télevision grand ecran*/
+	}
+}
+
+@media screen and (min-width: 2500px) and (max-width: 3000px) {
+	body {
+		/* Screen télevision trés grand ecran*/
+	}
+}
