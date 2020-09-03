@@ -1,7 +1,6 @@
 <link rel="stylesheet" href="vue/header/header.css">
 <link rel="stylesheet" href="vue/section/section.css">
 <link rel="stylesheet" href="vue/footer/footer.css">
-<link rel="stylesheet" href="media_screen.css>
 
 <script src="vue/header/header.js"></script>
 <script src="vue/section/section.js"></script>
