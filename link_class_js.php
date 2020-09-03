@@ -1,1 +1,0 @@
-<script src="class/javascript/data.js"></script>
