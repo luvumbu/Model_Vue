@@ -1,4 +1,3 @@
-
 class Information {
 	constructor(link) {
 		this.link = link;
