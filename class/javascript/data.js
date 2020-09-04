@@ -14,12 +14,13 @@ class Information {
 	}
 	push(){
 		for(var i = 0 ; i < this.identite_tab.length ; i++){
-			console.log(this.identite_tab[i][1]);
+		/*	console.log(this.identite_tab[i][1]);*/
 			this.identite.append(this.identite_tab[i][0], this.identite_tab[i][1]);		 
 		}		
 		this.req.open("POST",this.link);
 		this.req.send(this.identite);
-		console.log(this.req);	 
+		 
+		// console.log(this.req);	 /!\! affiche les valeurs envoyer  
 	}
 }
 //exemple d'execution
@@ -27,5 +28,5 @@ class Information {
 var ok = new Information("class/php/data.php"); // création de la classe  php.php  estvla localisation du fichier php
 ok.add("login", "root"); // ajout de l'information pour lenvoi 
 ok.add("password", "root"); // ajout d'une deuxieme information denvoi  
-console.log(ok.info()); // demande l'information dans le tableau
+//console.log(ok.info()); // demande l'information dans le tableau
 ok.push(); // envoie l'information au code pkp 
