@@ -212,6 +212,16 @@
     font-family: "aAlloyInk";
     src: url("src/font/cartons/aAlloyInk.otf");
   }
+  @font-face {
+    font-family: "squealer embossed";
+    src: url("src/font/cartons/squealer embossed.ottf");
+  }
+  @font-face {
+    font-family: "squealer";
+    src: url("src/font/cartons/squealer.ttf");
+  }
+
+  
 
   @font-face {
     font-family: "Alone On Earth";
