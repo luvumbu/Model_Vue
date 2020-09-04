@@ -1,15 +1,51 @@
 body {
-	font-family: "Roboto-Bold";
-}	
-b
-{
-	font-family: "Comfortaa-Light"; 
+  font-family: "Roboto-Black";
 }
+
+b {
+	font-family: "Comfortaa-Light";
+}
+
+/* 
+	font-family: "Home School"; 
+	font-family: "Alone On Earth";
+	font-family: "aAlloyInk";
+	font-family: "Sketch 3D";
+	font-family: "Cute Stitch";attention les nombres ne s'achichent pas 
+	font-family: "cute 'n' cuddly";
+	font-family: "cute 'n' cuddly Italic";
+	font-family: "Cookie";
+	font-family: "CHICKEN Pie";
+	font-family: "CHICKEN Pie Height";
+	font-family: "Candy Beans";
+	font-family: "Bubble Bobble";
+	font-family: "Avocado Creamy";
+	font-family: "Another Round";
+	font-family: "Brightly Crush Shine";
+	font-family: "avocado";
+	font-family: "Boba Panda Font by 7NTypes";
+	font-family: "Hooman Stitch";
+	font-family: "LOVESCOOTER";
+	font-family: "Humble Boys demo";
+	font-family: "Jolly Rainbow";
+	font-family: "Lova Bear Two Font by Dreamink (7NTypes)";
+	font-family: "Lova Bear Font by Dreamink (7NTypes)";
+  font-family: "MilkyNice";
+	font-family: "Shells And Starfish";
+	font-family: "Orange Juice";
+	font-family: "MilkyNice-Clean";
+	font-family: "QUIRKYLAND";
+	font-family: "SkyBlue";
+	font-family: "Stella Demo";
+	font-family: "SugarpunchDEMO";
+	font-family: "Sunday Morning";
+	font-family: "Super Kids";
+	font-family: "Super Kids";
+*/
 /* width */
 ::-webkit-scrollbar {
 	width: 10px;
 }
-
 /* Track */
 ::-webkit-scrollbar-track {
 	box-shadow: inset 0 0 5px grey;
@@ -26,7 +62,7 @@ b
 ::-webkit-scrollbar-thumb:hover {
 	background: #1e3e79;
 }
-
+/* 
 /*
   https://fontawesome.com/
   font-family: "Roboto-Black";
@@ -34,7 +70,7 @@ b
 	font-family: "Roboto-BoldCondensed";
 	font-family: "Roboto-ThinItalic";
 	font-family: "Roboto-ThinItalic";
-	font-family: "Roboto-Thin";
+  font-family: "Roboto-Black";
 	font-family: "Roboto-Regular";
 	font-family: "Roboto-MediumItalic";
 	font-family: "Roboto-Medium";
