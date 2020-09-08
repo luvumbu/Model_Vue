@@ -3,7 +3,6 @@
 		include("vue/header/header.php");
 	?>
 </header>
-
 <section id="section">
 	<?php 
 		include("vue/section/section.php");
