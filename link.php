@@ -15,10 +15,10 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 <!-- Partie vue Js -->
-<script src="vuesjs/head.js"></script>
-<script src="vuesjs/header.js"></script>
-<script src="vuesjs/section.js"></script>
-<script src="vuesjs/footer.js"></script>
+<script src="vuejs/head.js"></script>
+<script src="vuejs/header.js"></script>
+<script src="vuejs/section.js"></script>
+<script src="vuejs/footer.js"></script>
 <!-- Fin de la Partie vue Js -->
 <link rel="stylesheet" href="body_font.css">
 <link rel="stylesheet" href="body_screen.css">
