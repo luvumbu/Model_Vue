@@ -1,9 +1,11 @@
 var header = new Vue({
   el: '#header',
   data: {
-   
-  },
-  methods:{
 
+  },
+  methods: {
+    mousemove: function () {
+
+    }
   }
 })
