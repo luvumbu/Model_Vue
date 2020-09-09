@@ -28,8 +28,4 @@ class Information {
 // ok.add("login", "root"); // ajout de l'information pour lenvoi 
 // ok.add("password", "root"); // ajout d'une deuxieme information denvoi  
 // //console.log(ok.info()); // demande l'information dans le tableau
-<<<<<<< HEAD:class/javascript/cookie/Information.js
 // ok.push(); // envoie l'information au code pkp 
-=======
-// ok.push(); // envoie l'information au code pkp 
->>>>>>> master:class/javascript/Information.js
