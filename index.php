@@ -12,12 +12,8 @@ session_start();
 <body  id="body" >
 	<?php			
 			include("app.php");
-<<<<<<< HEAD
 			include("link_class.php");
 			include("link/link_all.php"); 
-=======
- 		  include("link.php"); 
->>>>>>> master
 	?>
 </body>
 
