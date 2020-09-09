@@ -1,16 +1,16 @@
 <header id="header" v-on:mousemove="mousemove">
 	<?php 
-		include("vue/header/header.php");
+		include("view/header/header.php");
 	?>
 </header>
 <section id="section" v-on:mousemove="mousemove">
 	<?php 
-		include("vue/section/section.php");
+		include("view/section/section.php");
 	?>
 </section>
 <footer id="footer" v-on:mousemove="mousemove">
 	<?php 
-		include("vue/footer/footer.php");
+		include("view/footer/footer.php");
 	?>
 </footer>
 
