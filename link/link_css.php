@@ -7,4 +7,3 @@
 <link rel="stylesheet" href="class/css/width.css">
 <link rel="stylesheet" href="class/css/flexbox.css">
 <link rel="stylesheet" href="class/css/font-size.css">
-
