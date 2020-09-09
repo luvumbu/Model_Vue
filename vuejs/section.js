@@ -1,7 +1,7 @@
-var section = new Vue({
-  el: '#section',
-  data: {},
-  methods: {
-    mousemove: function () {}
-  }
-})
+// var section = new Vue({
+//   el: '#section',
+//   data: {},
+//   methods: {
+//     mousemove: function () {}
+//   }
+// })

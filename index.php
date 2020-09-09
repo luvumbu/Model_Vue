@@ -13,7 +13,7 @@ session_start();
 	<?php
 			include("link_class.php");
 			include("app.php");
-			include("link.php"); 
+ 		  include("link.php"); 
 	?>
 </body>
 

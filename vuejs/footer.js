@@ -1,10 +1,10 @@
-var footer = new Vue({
-  el: '#footer',
-  data: {
-  },
-  methods: {
-    mousemove: function () {
-    }
-  }
-})
+// var footer = new Vue({
+//   el: '#footer',
+//   data: {
+//   },
+//   methods: {
+//     mousemove: function () {
+//     }
+//   }
+// })
  

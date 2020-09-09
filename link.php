@@ -1,6 +1,3 @@
-<?php 
-header("Access-Control-Allow-Origin: *");
-?>
 <link rel="stylesheet" href="vue/header/header.css">
 <link rel="stylesheet" href="vue/section/section.css">
 <link rel="stylesheet" href="vue/footer/footer.css">
