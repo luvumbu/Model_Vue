@@ -13,4 +13,6 @@
 		include("view/footer/footer.php");
 	?>
 </footer>
-
+<?php 
+	include("link/link_all.php"); 
+?>
