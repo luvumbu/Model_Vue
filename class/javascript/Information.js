@@ -20,13 +20,12 @@ class Information {
 		this.req.open("POST",this.link);
 		this.req.send(this.identite);
 		 
-		// console.log(this.req);	 /!\! affiche les valeurs envoyer  
+		 console.log(this.req);//	 /!\! affiche les valeurs envoyer  
 	}
 }
 //exemple d'execution
-
-var ok = new Information("class/php/data.php"); // création de la classe  php.php  estvla localisation du fichier php
-ok.add("login", "root"); // ajout de l'information pour lenvoi 
-ok.add("password", "root"); // ajout d'une deuxieme information denvoi  
-//console.log(ok.info()); // demande l'information dans le tableau
-ok.push(); // envoie l'information au code pkp 
+// var ok = new Information("class/php/data.php"); // création de la classe  php.php  estvla localisation du fichier php
+// ok.add("login", "root"); // ajout de l'information pour lenvoi 
+// ok.add("password", "root"); // ajout d'une deuxieme information denvoi  
+// //console.log(ok.info()); // demande l'information dans le tableau
+// ok.push(); // envoie l'information au code pkp 

@@ -1,3 +1,6 @@
+<?php 
+header("Access-Control-Allow-Origin: *");
+?>
 <link rel="stylesheet" href="vue/header/header.css">
 <link rel="stylesheet" href="vue/section/section.css">
 <link rel="stylesheet" href="vue/footer/footer.css">
@@ -23,6 +26,7 @@
 <link rel="stylesheet" href="body_font.css">
 <link rel="stylesheet" href="body_screen.css">
 <link rel="stylesheet" href="font.css">
+
 <link rel="shortcut icon" type="image/png" href="src/img/favicon.png">
 <script src="class/javascript/add/AddChild.js"></script>
 <script src="class/javascript/cookie/Spy.js"></script>
