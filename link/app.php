@@ -1,14 +1,14 @@
-<header id="header" v-on:mousemove="mousemove">
+<header id="header">
 	<?php 
 		include("view/header/header.php");
 	?>
 </header>
-<section id="section" v-on:mousemove="mousemove">
+<section id="section">
 	<?php 
 		include("view/section/section.php");
 	?>
 </section>
-<footer id="footer" v-on:mousemove="mousemove">
+<footer id="footer">
 	<?php 
 		include("view/footer/footer.php");
 	?>
