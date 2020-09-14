@@ -13,19 +13,7 @@ if ($query && $query['status'] == 'success') {	//code avec les variables
 //	echo "Bonjour visiteur de " . $query['country'] . "," . $query['city'];
 	$country=$query['country'];
 	$city=$query['city'];
-}
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
+} 
 
-$sql = "INSERT INTO cookie_all_connexion (cookie_all_connexion_ip,cookie_all_connexion_ville,cookie_all_connexion_pays)
-VALUES ('$REMOTE_ADDR','$city','$country')";
-
-if ($conn->query($sql) === TRUE) {
-} else {
-  echo "Error: " . $sql . "<br>" . $conn->error;
-}
-$conn->close();
+ 
 ?>

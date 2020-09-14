@@ -4,7 +4,5 @@
 	include("link_vue.php");
 	include("link_css.php");
 	include("link_css.php");
-	// include("class/php/bdd_local.php");
-	// include("class/php/bdd_prod.php");
-	include("class/php/ip.php"); 
+	include("class/php/ip.php");  // donne l'information si l'utilisateur est en local ou en prod 
 ?>
