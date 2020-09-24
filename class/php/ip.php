@@ -9,6 +9,5 @@ if ($REMOTE_ADDR == "localhost" || $REMOTE_ADDR == "127.0.0.1" || $REMOTE_ADDR==
 	$_SESSION["city"] = "city_local";
 } else {
 		include("class/php/bdd_prod.php"); // ajout des fichier prod
-
 }
 $_SESSION["localisation"] = $localisation;
